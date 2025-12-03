@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    border-bottom: 4px solid #8b0000;
+}
+
+.navbar {
+    background: #8b0000;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: #b30000;
+}
+
+.hero {
+    display: flex;
+    padding: 20px;
+    background: white;
+    gap: 20px;
+}
+
+.hero-left, .hero-right {
+    width: 50%;
+    background: #fff;
+    /* padding: 5px; */
+    border: 1px solid #ddd;
+}
+.hero-right{
+    background-image: url(assects/images/form_bg.jpg);
+    padding: 20px;
+}
+.hero-right h2{
+    background-color: #8b0000;
+    color: white;
+    width: 23%;
+}
+
+.hero-right form input,
+.hero-right form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.hero-right form textarea{
+    width: 80%;
+}
+
+.hero button {
+    padding: 5px 30px;
+    background: #8b0000;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-boxes {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.three-boxes .box {
+    padding: 20px;
+    background: white;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.box-left{
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+.box-left p{
+    text-align: left justify;
+    font-size: 20px;
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.box-center{
+    padding: 10px;
+}
+.up{
+    display: flex; 
+    justify-content:space-between ;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.down{
+    display: flex;
+    justify-content:space-between ;
+    padding: 5px;
+}
+.box-right{
+    /* width: 50%; */
+}
+.right-top{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-bottom{
+    width: 50%;
+}
+.content-section {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.sidebar-left, .sidebar-right {
+    width: 20%;
+}
+
+.sidebar-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-left li {
+    background: #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.side-logo img{
+    padding: 15px;
+
+}
+.social-icons img{
+    padding:10px; ;  
+}
+
+.main-content {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.side-box {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer {
+    background: #8b0000;
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 992px) {
+
+    .top-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+    }
+
+    .three-boxes {
+        flex-direction: column;
+    }
+
+    .content-section {
+        flex-direction: column;
+    }
+
+    .sidebar-left,
+    .sidebar-right,
+    .main-content {
+        width: 100%;
+    }
+
+    .navbar ul {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 768px) {
+
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .top-header h1 {
+        font-size: 22px;
+    }
+
+    .hero-left h2 {
+        font-size: 20px;
+    }
+
+    .three-boxes .box {
+        padding: 15px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar a {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .top-header h1 {
+        font-size: 20px;
+    }
+
+    .hero-left,
+    .hero-right {
+        padding: 15px;
+    }
+
+    .hero-right form input,
+    .hero-right form textarea {
+        padding: 8px;
+    }
+
+    .hero button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .three-boxes .box {
+        padding: 10px;
+    }
+
+    .sidebar-left li {
+        padding: 8px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
