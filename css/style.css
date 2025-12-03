@@ -218,7 +218,7 @@ h1, h2, h3, p {
 }
 .hero {
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     background: white;
     gap: 20px;
 }
@@ -233,7 +233,7 @@ h1, h2, h3, p {
 
 .hero-right form input,
 .hero-right form textarea {
-    width: 100%;
+    width:80%;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -373,10 +373,10 @@ h1, h2, h3, p {
         font-size: 20px;
     }
 
-    /* .hero-left,
+    .hero-left,
     .hero-right {           
         padding: 15px;
-    } */
+    }
 
     .hero-right form input,
     .hero-right form textarea {
