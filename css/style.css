@@ -272,7 +272,7 @@ h1, h2, h3, p {
 .main-content {
     width: 60%;
     background: white;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ddd;
 }
 
@@ -318,8 +318,10 @@ h1, h2, h3, p {
     }
 
     .sidebar-left,
-    .sidebar-right,
-    .main-content {
+    .sidebar-right {
+        width: 100%;
+    }
+    .main{
         width: 100%;
     }
 
@@ -347,7 +349,7 @@ h1, h2, h3, p {
     }
 
     .main-content {
-        padding: 15px;
+        padding: 5px;
     }
 }
 @media (max-width: 480px) {
@@ -372,7 +374,7 @@ h1, h2, h3, p {
     }
 
     .hero-left,
-    .hero-right {
+    .hero-right {           
         padding: 15px;
     }
 
