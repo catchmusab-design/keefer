@@ -96,8 +96,6 @@ body {
 .box-left{
     padding: 10px;
     display: flex;
-    /* justify-content: space-evenly; */
-
 }
 .box-left p{
     text-align: left justify;
@@ -120,9 +118,6 @@ body {
     display: flex;
     justify-content:space-between ;
     padding: 5px;
-}
-.box-right{
-    /* width: 50%; */
 }
 .right-top{
     padding: 10px;
@@ -181,7 +176,6 @@ body {
     text-align: center;
     color: white;
 }
-/* ---------- BASIC RESET ---------- */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -191,8 +185,6 @@ body {
 h1, h2, h3, p {
     margin: 0;
 }
-
-/* ---------------- HEADER ---------------- */
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -201,8 +193,6 @@ h1, h2, h3, p {
     background: white;
     border-bottom: 4px solid #8b0000;
 }
-
-/* ---------------- NAVBAR ---------------- */
 .navbar {
     background: #8b0000;
 }
@@ -226,8 +216,6 @@ h1, h2, h3, p {
 .navbar a:hover {
     background: #b30000;
 }
-
-/* ---------------- HERO SECTION ---------------- */
 .hero {
     display: flex;
     padding: 20px;
@@ -257,8 +245,6 @@ h1, h2, h3, p {
     border: none;
     cursor: pointer;
 }
-
-/* ---------------- 3 BOXES ---------------- */
 .three-boxes {
     display: flex;
     padding: 20px;
@@ -272,8 +258,6 @@ h1, h2, h3, p {
     text-align: center;
     border: 1px solid #ddd;
 }
-
-/* ---------------- CONTENT SECTION ---------------- */
 .content-section {
     display: flex;
     padding: 20px;
@@ -302,15 +286,13 @@ h1, h2, h3, p {
     padding: 10px;
     margin-bottom: 10px;
 }
-
-/* ---------------- FOOTER ---------------- */
 .footer {
     background: #8b0000;
     padding: 20px;
     text-align: center;
     color: white;
 }
-@media (max-width: 992px) {
+@media (max-width: 990px) {
 
     .top-header {
         flex-direction: column;
@@ -341,8 +323,8 @@ h1, h2, h3, p {
         width: 100%;
     }
 
-    .navbar ul {
-        justify-content: space-around;
+    .navbar li {
+        justify-content: center;
     }
 }
 @media (max-width: 768px) {
