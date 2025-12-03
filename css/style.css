@@ -373,10 +373,10 @@ h1, h2, h3, p {
         font-size: 20px;
     }
 
-    .hero-left,
+    /* .hero-left,
     .hero-right {           
         padding: 15px;
-    }
+    } */
 
     .hero-right form input,
     .hero-right form textarea {
