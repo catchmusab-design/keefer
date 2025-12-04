@@ -380,7 +380,7 @@ h1, h2, h3, p {
         height: auto;
     }
     .main-content{
-        width: 100%;
+        width: auto;
         height: auto;
         text-align: justify;
     }
