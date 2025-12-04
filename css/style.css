@@ -292,7 +292,7 @@ h1, h2, h3, p {
     text-align: center;
     color: white;
 }
-@media (max-width: 786px) {
+/* @media (max-width: 786px) {
 
     .navbar a {
         padding: 10px;
@@ -314,25 +314,27 @@ h1, h2, h3, p {
     .main-content {
         padding: 5px;
     }
-}
+} */
 @media (max-width: 480px) {
+    
     .top-header{
         display: flex;
         flex-direction: column;
+        width: auto;
     }
     .logo-section img{
-        width: 100%;
+        width: 100px;
         padding: 0;
     }
 
     .navbar ul {
         flex-direction: column;
         padding: 0;
-        width: 100%;
+        width: auto;
     }
 
     .navbar a {
-        width: 100%;
+        width: auto;
         text-align: center;
         padding: 12px;
     }
@@ -387,6 +389,7 @@ h1, h2, h3, p {
     .side-logo{
         display: flex;
         align-items: center;
+        justify-content: space-evenly;
     }
     .social-icons{
         text-align: center;
@@ -407,5 +410,6 @@ h1, h2, h3, p {
 
     .footer {
         font-size: 14px;
+        width: auto;
     }
 }
