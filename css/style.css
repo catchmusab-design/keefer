@@ -91,7 +91,7 @@
   flex-direction: row;
 }
 .up-left {
-  width: 50%;
+  /* width: 50%; */
   font-size: 15px;
 }
 
@@ -187,6 +187,9 @@ button {
   .header-logo{
     width: auto;
   }
+  /* .nav-bar{
+    width: 100%;
+  } */
 
   .upper-section {
     display: flex;
@@ -205,10 +208,10 @@ button {
     flex-direction: column;
     width: 100%;
   }
-  .left{
+  /* .left{
     height: 100%;
     width: ;
-  }
+  } */
   .container{
     display: flex;
     flex-direction: column;
